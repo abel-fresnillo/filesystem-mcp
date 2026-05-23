@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Config (contains local paths — use filesystem-mcp.example.json as the template)
+filesystem-mcp.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment & secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test artifacts
+coverage/
+tmp-test-*/
